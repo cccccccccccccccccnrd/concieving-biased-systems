@@ -1,11 +1,15 @@
 {
+  "project": {
+    "name": "Concieving Biased Systems",
+    "description": "Algorithmic bias refers to technology being shaped by tendencies and prejudices. These are terms that imply intentions, refer to actions that are more likely to be performed by humans. A human being can think and act biased — but technology? It is often ignored that it is also people who develop those: It is of importance who designs, who develops technology and who collects its underlying datasets. Even programmed realities are never really autonomous but represent society and world."
+  },
   "manifesto": {
-    "name": "Manifesto, 2019",
+    "name": "Manifesto",
     "description": "<p>Duis autem vel consetetur sadipscing, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>"
   },
   "finn": {
     "name": "Who Inhabits the Negative Space?",
-    "description": "<p>Duis autem vel consetetur sadipscing, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed. At vero eos et no sea takimata sanctus est Lorem ipsum dolor sit amet, accusam et justo duo dolores et ea rebum. Stet clita kisd.</p>"
+    "description": "<p>Critical media discourses and contemporary works of art often deal with the question of how to escape the the ubiquitous vision of computational machines. But what happens to people who are not included but want to be part of a system, who want to be participate in the simplest forms of human machine interaction, just like everybody else? Algorithmic bias in its strongest form entirely refuses the representation of certain identities and thereby decides over presence and absence of identity, the existence of a person in itself. Who are the ones that are left over when everything else is perceived and processed? Who are the ones that inhabit the negative space?</p>"
   },
   "conrad": {
     "name": "Human-Computer Hermeneutics",
