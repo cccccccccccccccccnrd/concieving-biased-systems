@@ -2,18 +2,18 @@ const app = new Vue({
   el: '#app',
   data: {
     selection: null,
-    descriptions: {},
+    content: {},
   },
   computed: {
-    heading: function () {
-      if (this.selection === '') {
-        return 'Concieving biased systems'
-      } else {
-        return `${ this.selection }, 2019`
+    name: function () {
+      if (this.content[this.selection]) {
+        return this.content[this.selection].name
       }
     },
     description: function () {
-      return this.descriptions[this.selection]
+      if (this.content[this.selection]) {
+        return this.content[this.selection].description
+      }
     }
   },
   created: async function () {
@@ -32,7 +32,7 @@ const app = new Vue({
       }
     })
 
-    const response = await fetch('assets/descriptions.json')
-    this.descriptions = await response.json()
+    const response = await fetch('assets/content.json')
+    this.content = await response.json()
   }
 })

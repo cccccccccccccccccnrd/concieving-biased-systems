@@ -1,0 +1,14 @@
+{
+  "manifesto": {
+    "name": "Manifesto, 2019",
+    "description": "<p>Duis autem vel consetetur sadipscing, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>"
+  },
+  "finn": {
+    "name": "Who Inhabits the Negative Space?",
+    "description": "<p>Duis autem vel consetetur sadipscing, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed. At vero eos et no sea takimata sanctus est Lorem ipsum dolor sit amet, accusam et justo duo dolores et ea rebum. Stet clita kisd.</p>"
+  },
+  "conrad": {
+    "name": "Human-Computer Hermeneutics",
+    "description": "<p>Duis autem vel consetetur sadipscing, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed. At vero eos et no sea takimata sanctus est Lorem ipsum dolor sit amet, accusam et justo duo dolores et ea rebum. Stet clita kisd.</p>"
+  }
+}

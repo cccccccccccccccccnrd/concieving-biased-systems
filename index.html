@@ -15,6 +15,7 @@
           <a-assets>
             <img id="xp" src="assets/xp.png">
             <img id="manifesto" src="assets/manifesto.png">
+            <video id="obenlinks" autoplay loop="true" src="assets/videos/finn-oben-links.mp4"></video>
             <a-asset-item id="manifesto-obj" src="assets/manifesto.obj"></a-asset-item>
             <a-asset-item id="manifesto-mtl" src="assets/manifesto.mtl"></a-asset-item>
             <a-asset-item id="finn-obj" src="assets/finn.obj"></a-asset-item>
@@ -43,25 +44,41 @@
           <a-entity
             id="finn"
             material="shader: standard; color: white;"
-            position="-3 -1 0"
+            position="-3 -0.4 0"
             rotation="0 90 0"
             scale="0.007 0.007 0.007"
             cursor-listener
             obj-model="obj: #finn-obj; mtl: #finn-mtl"
           ></a-entity>
           <a-entity
-            id="xp"
+            id="conrad"
             position="3 -1 0"
             rotation="0 -90 0"
             scale="0.007 0.007 0.007"
             cursor-listener
             obj-model="obj: #manifesto-obj; mtl: #manifesto-mtl"
           ></a-entity>
+          <a-video 
+            src="#obenlinks" 
+            width="1.6" 
+            height="1"
+            scale="0.22 0.22 0.22" 
+            position="-2.9665 0.028 -0.35"
+            rotation="0 90 0"
+          ></a-video>
+          <a-video 
+            src="#obenlinks" 
+            width="1.6" 
+            height="1"
+            scale="0.22 0.22 0.22" 
+            position="-2.9665 0.028 -0.7"
+            rotation="0 90 0"
+          ></a-video>
         </a-scene>
       </div>
       <section id="info">
-        <h1 class="heading">{{ heading }}</h1>
-        <section v-html="description"></section>
+        <h1 class="heading">{{ name }}</h1>
+        <section class="description" v-html="description"></section>
       </section>
     </div>
     <script src="main.js"></script>

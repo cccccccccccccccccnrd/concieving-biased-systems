@@ -1,6 +1,6 @@
 ::selection {
-  color: blueviolet;
-  background: aqua;
+  color: black;
+  background: rgba(255, 255, 255, 0.99);
 }
 
 .fade-enter-active, .fade-leave-active {
@@ -32,7 +32,7 @@ h1 {
 }
 
 h2 {
-  margin: 1em 0 0 0;
+  margin: 0;
   font-weight: normal;
 }
 
@@ -51,32 +51,34 @@ a-scene {
   background: black;
 }
 
-#app {
-  display: flex;
-}
-
 #scene {
   width: 100%;
   height: 100vh;
-  flex: 2;
 }
 
 #info {
-  flex: 1;
   box-sizing: border-box;
-  width: 100%;
-  height: 100vh;
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
   padding: 2em;
-  color: black;
-  background: white;
+  color: white;
   overflow: auto;
 }
 
 .heading {
-  padding: 1em;
+  padding: 1em 0;
   color: white;
-  background: black;
   text-align: center;
   text-transform: capitalize;
   border-radius: 100px;
+}
+
+.description {
+  column-count: 2;
+  column-gap: 1em;
+}
+
+.description p {
+  margin: 0;
 }
