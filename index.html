@@ -17,6 +17,8 @@
             <img id="manifesto" src="assets/manifesto.png">
             <a-asset-item id="manifesto-obj" src="assets/manifesto.obj"></a-asset-item>
             <a-asset-item id="manifesto-mtl" src="assets/manifesto.mtl"></a-asset-item>
+            <a-asset-item id="finn-obj" src="assets/finn.obj"></a-asset-item>
+            <a-asset-item id="finn-mtl" src="assets/finn.mtl"></a-asset-item>
           </a-assets>
           <a-entity
             camera
@@ -32,14 +34,6 @@
             </a-entity>
           </a-entity>
           <a-entity
-            id="xp"
-            position="3 -1 0"
-            rotation="0 -90 0"
-            scale="0.007 0.007 0.007"
-            cursor-listener
-            obj-model="obj: #manifesto-obj; mtl: #manifesto-mtl"
-          ></a-entity>
-          <a-entity
             id="manifesto"
             position="0 -1 -2"
             scale="0.007 0.007 0.007"
@@ -47,9 +41,18 @@
             obj-model="obj: #manifesto-obj; mtl: #manifesto-mtl"
           ></a-entity>
           <a-entity
-            id="manifesto"
+            id="finn"
+            material="shader: standard; color: white;"
             position="-3 -1 0"
             rotation="0 90 0"
+            scale="0.007 0.007 0.007"
+            cursor-listener
+            obj-model="obj: #finn-obj; mtl: #finn-mtl"
+          ></a-entity>
+          <a-entity
+            id="xp"
+            position="3 -1 0"
+            rotation="0 -90 0"
             scale="0.007 0.007 0.007"
             cursor-listener
             obj-model="obj: #manifesto-obj; mtl: #manifesto-mtl"
