@@ -55,6 +55,19 @@ const app = new Vue({
   },
   mounted: function () {
     this.scroll('Duis autem vel consetetur sadipscing, sed diam voluptua.')
+
+    const manifestoVideo = this.$refs.manifestoAsset3
+    manifestoVideo.play()
+
+    setTimeout(() => {
+      const manifestoVideo = this.$refs.manifestoAsset2
+      manifestoVideo.play()
+    }, 23.7 * 1000)
+
+    setTimeout(() => {
+      const manifestoVideo = this.$refs.manifestoAsset1
+      manifestoVideo.play()
+    }, 47.4 * 1000)
   },
   methods: {
     scroll: async function (input) {
